@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Девушка в цветущем мире</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{
+"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+"three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/",
+"three/examples/jsm/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/",
+"@pixiv/three-vrm":"https://cdn.jsdelivr.net/npm/@pixiv/three-vrm@2.1.2/lib/three-vrm.module.min.js"}}</script>
+</head><body>
+<canvas id="c"></canvas>
+<div id="load"><div>Загрузка героини… <b id="pct">0%</b></div></div>
+<div id="hud"><div id="score">✦ 0 / 25</div>
+<div id="help">WASD — бег · Shift — спринт · Пробел — прыжок, в воздухе ещё раз — планер · F — помахать · мышь — камера (двойной клик — захват)</div></div>
+<div id="touch"><div id="stick"><i id="knob"></i></div><button id="bj">⤒</button><button id="bs">»</button><button id="bw">👋</button></div>
+<script type="module" src="main.js"></script>
+</body></html>
